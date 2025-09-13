@@ -1,19 +1,19 @@
-# Registrando minha experiência aprendendo C++
-C++ foi uma linguagem que eu apaixonei pela sintaxe e desde então eu começei a estudá-la.
+## Welcome to my C++ repository 
+```cpp
+#include <iostream>
+#include <map>
 
-[![My Skills](https://skillicons.dev/icons?i=cpp)]() 
+using namespace std;
 
-## Redes sociais:
-<hr>
+string GetIntroduction() {
+    return "Recording my experience learning C++";
+}
 
-<!-- [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/lucas-rabello-42b23a339/) -->
-[![My Skills](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/lcs.carvalho_/?next=%2F) 
-[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/lucas-rabello-42b23a339) 
-
-## Entre em uma comunidade no Discord para interagir com outros Devs
-<hr>
-
-[![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.gg/6meEEqs2) 
-
-## LeetCode:
-[![LeetCode](https://img.shields.io/badge/LeetCode-Lucas--Rabello--Dev-orange?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/lucas-rabello-dev/)
+map<string, string> GetSocialMedia() {
+    return map<string, string> Social = {
+        "Instagram":"https://www.instagram.com/lcs.carvalho_/?next=%2F",
+        "Linkedin":"https://www.linkedin.com/in/lucas-rabello-42b23a339",
+        "LeetCode":"https://leetcode.com/u/lucas-rabello-dev/",
+    };
+}
+```
