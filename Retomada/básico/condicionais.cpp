@@ -48,6 +48,5 @@ int main() {
     int num = 33;
     num == 33 ? cout << "o numero é 33" << endl : cout << "o numero não é 33" << endl;
     
-
     return 0;
 }
