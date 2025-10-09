@@ -12,7 +12,6 @@ int main() {
     return 0;
 }
 
-
 int soma(int n, int n2, int n3) {
     return n + n2 + n3;
 }
