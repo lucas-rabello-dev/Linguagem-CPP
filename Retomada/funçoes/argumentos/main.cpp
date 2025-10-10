@@ -4,7 +4,6 @@ using namespace std;
 
 const string ERROR_STR = "Erro string inválida";
 
-
 // adicionando um valor padão
 void imp(string s = ERROR_STR);
 
