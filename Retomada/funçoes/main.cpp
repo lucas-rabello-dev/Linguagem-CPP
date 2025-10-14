@@ -41,7 +41,7 @@ int main() {
     PorValor(a);
     cout << "Depois da função por valor: " << a << endl;
     PorReferencia(&a);
-    cout << "Depois da função por referência: " << a << endl;    
+    cout << "Depois da função por referência: " << a << endl;
 
     return 0;
 }
