@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-Use o atoi e o itoa ---------------------------------------------------------------------------------------
+Use o atoi std::to_string -> equivalente ao itoa ---------------------------------------------------------------------------
 */
 int main() {
     // Conversão de tipos
