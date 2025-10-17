@@ -17,3 +17,7 @@ map<string, string> GetSocialMedia() {
     };
 }
 ```
+### I've used these materials to study C++:
+[BroCode C++ Course](https://www.youtube.com/watch?v=S3nx34WFXjI&list=PLZPZq0r_RZOMHoXIcxze_lP97j2Ase2on)
+[CBF Prof. Bruno C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
+[RoadMap.sh C++](https://roadmap.sh/cpp)
