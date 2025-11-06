@@ -2,23 +2,22 @@
 
 using namespace std;
 
-
-// struct anônima
-// não tem como criar variáveis com ela
-struct {
-    int coisas1 = 10;
+struct Carro {
+  string nome;
+  string cor;
+  double ValMax;
 };
-
-typedef struct TipoDados {
-  int nome1;
-  int nome2;
-} teste;
 
 int main() {
 
-    TipoDados dados;
-    dados.nome1 = 100;
-    dados.nome2 = 999;
+    Carro carro;
+
+    carro.nome = "mclaren";
+    carro.cor = "preto";
+    carro.ValMax = 589000.00;
+
+    cout << carro.nome << endl;
+
 
     return 0;
 }
